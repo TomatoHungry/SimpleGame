@@ -32,6 +32,7 @@ def launch_game(version, name):
         '--version', version,
         '--gameDir', minecraft_dir,
         '--assetsDir', os.path.join(minecraft_dir, 'assets'),
+        '--assetIndex',version_info['assetIndex']['id'] ,
         '--accessToken', '0',
         '--userType', 'legacy',
         '--versionType', 'Zephyr'
